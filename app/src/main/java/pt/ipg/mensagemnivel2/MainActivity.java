@@ -27,23 +27,23 @@ public class MainActivity extends AppCompatActivity {
         String message_name = editText.getText().toString();
         intent.putExtra(name, message_name);
 
-        EditText editText2 = (EditText) findViewById(R.id.editText);
+        EditText editText2 = (EditText) findViewById(R.id.editText2);
         String message_number = editText2.getText().toString();
         intent.putExtra(number, message_number);
 
-        EditText editText3 = (EditText) findViewById(R.id.editText);
+        EditText editText3 = (EditText) findViewById(R.id.editText3);
         String message_email = editText3.getText().toString();
         intent.putExtra(email, message_email);
 
-        EditText editText4 = (EditText) findViewById(R.id.editText);
+        EditText editText4 = (EditText) findViewById(R.id.editText4);
         String message_age = editText4.getText().toString();
         intent.putExtra(age, message_age);
 
-        EditText editText5 = (EditText) findViewById(R.id.editText);
+        EditText editText5 = (EditText) findViewById(R.id.editText5);
         String message_weight = editText5.getText().toString();
         intent.putExtra(weight, message_weight);
 
-        EditText editText6 = (EditText) findViewById(R.id.editText);
+        EditText editText6 = (EditText) findViewById(R.id.editText6);
         String message_height = editText6.getText().toString();
         intent.putExtra(height, message_height);
 
