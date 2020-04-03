@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MensagemNivel2</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_number">Number</string>
+    <string name="edit_email">Email</string>
+    <string name="edit_age">Age</string>
+    <string name="edit_weight">Weight</string>
+    <string name="edit_height">Height</string>
+    <string name="button_send">Send</string>
 </resources>
