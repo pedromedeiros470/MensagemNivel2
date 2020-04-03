@@ -22,19 +22,31 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
+
         EditText editText = (EditText) findViewById(R.id.editText);
-        String message1 = editText.getText().toString();
-        intent.putExtra(name, message1);
-        String message2 = editText.getText().toString();
-        intent.putExtra(number, message2);
-        String message3 = editText.getText().toString();
-        intent.putExtra(email, message3);
-        String message4 = editText.getText().toString();
-        intent.putExtra(age, message4);
-        String message5 = editText.getText().toString();
-        intent.putExtra(weight, message5);
-        String message6 = editText.getText().toString();
-        intent.putExtra(height, message6);
+        String message_name = editText.getText().toString();
+        intent.putExtra(name, message_name);
+
+        EditText editText2 = (EditText) findViewById(R.id.editText);
+        String message_number = editText.getText().toString();
+        intent.putExtra(number, message_number);
+
+        EditText editText3 = (EditText) findViewById(R.id.editText);
+        String message_email = editText.getText().toString();
+        intent.putExtra(email, message_email);
+
+        EditText editText4 = (EditText) findViewById(R.id.editText);
+        String message_age = editText.getText().toString();
+        intent.putExtra(age, message_age);
+
+        EditText editText5 = (EditText) findViewById(R.id.editText);
+        String message_weight = editText.getText().toString();
+        intent.putExtra(weight, message_weight);
+
+        EditText editText6 = (EditText) findViewById(R.id.editText);
+        String message_height = editText.getText().toString();
+        intent.putExtra(height, message_height);
+
         startActivity(intent);
     }
 }
