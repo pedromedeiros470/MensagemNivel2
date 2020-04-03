@@ -104,7 +104,6 @@
         android:ems="10"
         android:hint="@string/edit_weight"
         android:inputType="textPersonName"
-        android:text="@string/edit_weight"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

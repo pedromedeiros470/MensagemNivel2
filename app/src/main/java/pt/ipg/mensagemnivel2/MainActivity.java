@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String name = "";
-    public static final String number = "";
-    public static final String email = "";
-    public static final String age = "";
-    public static final String weight = "";
-    public static final String height = "";
+    public static final String name = "nome";
+    public static final String number = "numero";
+    public static final String email = "email";
+    public static final String age = "idade";
+    public static final String weight = "peso";
+    public static final String height = "altura";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,23 +28,23 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(name, message_name);
 
         EditText editText2 = (EditText) findViewById(R.id.editText);
-        String message_number = editText.getText().toString();
+        String message_number = editText2.getText().toString();
         intent.putExtra(number, message_number);
 
         EditText editText3 = (EditText) findViewById(R.id.editText);
-        String message_email = editText.getText().toString();
+        String message_email = editText3.getText().toString();
         intent.putExtra(email, message_email);
 
         EditText editText4 = (EditText) findViewById(R.id.editText);
-        String message_age = editText.getText().toString();
+        String message_age = editText4.getText().toString();
         intent.putExtra(age, message_age);
 
         EditText editText5 = (EditText) findViewById(R.id.editText);
-        String message_weight = editText.getText().toString();
+        String message_weight = editText5.getText().toString();
         intent.putExtra(weight, message_weight);
 
         EditText editText6 = (EditText) findViewById(R.id.editText);
-        String message_height = editText.getText().toString();
+        String message_height = editText6.getText().toString();
         intent.putExtra(height, message_height);
 
         startActivity(intent);
